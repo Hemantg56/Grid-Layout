@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* height: 100px; */
+    background-color: lightblue;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    text-align: center;
+    line-height: 100px;
+}
+
+.x,
+.y {
+    /* height: inherit;
+    width: 30%; */
+    border: 1px solid;
+    display: grid;
+}
+
+.y1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+}
+
+nav {
+    height: 60px;
+    background-color: lightcoral;
+}
+
+.contant {
+    height: 600px;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+    height: 200px;
+    background-color: lightsalmon;
+}
